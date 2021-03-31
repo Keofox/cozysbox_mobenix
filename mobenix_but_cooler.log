@@ -22180,3 +22180,391 @@ Level flags = 0
 Total triangle count: 48827
 Writing e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.bsp
 3 minutes, 38 seconds elapsed
+
+
+
+materialPath: D:\Program Files\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\Gmod MAPS\cozysbox mobenix\mobenix_but_cooler.vmf
+Patching WVT material: maps/mobenix_but_cooler/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/mobenix_but_cooler/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/mobenix_but_cooler/nature/blendsandsand008b_antlion_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (-9120.00 0.00 264.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15872.0 11264.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 10752.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 9728.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 10752.0 2528.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 11264.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 9728.0 2528.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 8704.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 7680.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1461363 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1202 texinfos to 803
+Reduced 95 texdatas to 84 (2576 bytes to 2058)
+Writing E:\Gmod MAPS\cozysbox mobenix\mobenix_but_cooler.bsp
+10 seconds elapsed
+
+
+
+4 threads
+reading e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.bsp
+reading e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.prt
+LoadPortals: couldn't read e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.bsp
+PREP OK
+No vis information, direct lighting only.
+18842 faces
+1 degenerate faces
+28516490 square feet [4106374400.00 square inches]
+89 Displacements
+637855 Square Feet [91851184.00 Square Inches]
+138 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.4296 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  29/4096         1392/196608   ( 0.7%) 
+brushes               1800/16384       21600/196608   (11.0%) 
+brushsides           12099/65536       96792/524288   (18.5%) 
+planes                4152/65536       83040/1310720  ( 6.3%) 
+vertexes             25872/65536      310464/786432   (39.5%) 
+nodes                11611/65536      371552/2097152  (17.7%) 
+texinfos               803/12288       57816/884736   ( 6.5%) 
+texdata                 84/2048         2688/65536    ( 4.1%) 
+dispinfos               89/0           15664/0        ( 0.0%) 
+disp_verts            4785/0           95700/0        ( 0.0%) 
+disp_tris             7264/0           14528/0        ( 0.0%) 
+disp_lmsamples     1254362/0         1254362/0        ( 0.0%) 
+faces                18842/65536     1055152/3670016  (28.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4409/65536      246904/3670016  ( 6.7%) 
+leaves               11641/65536      372512/2097152  (17.8%) 
+leaffaces            20830/65536       41660/131072   (31.8%) 
+leafbrushes           5306/65536       10612/131072   ( 8.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges           101424/512000     405696/2048000  (19.8%) 
+edges                55826/256000     223304/1024000  (21.8%) 
+LDR worldlights        138/8192        12144/720896   ( 1.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1184/32768       11840/327680   ( 3.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         18075/65536       36150/131072   (27.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]    36207956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       66063/393216   (16.8%) 
+LDR ambient table    11641/65536       46564/262144   (17.8%) 
+HDR ambient table    11641/65536       46564/262144   (17.8%) 
+LDR leaf ambient     76184/65536     2133152/1835008  (116.2%) VERY FULL!
+HDR leaf ambient     11641/65536      325948/1835008  (17.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/288      ( 0.3%) 
+pakfile               [variable]        4591/0        ( 0.0%) 
+physics               [variable]     1461363/4194304  (34.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 46147
+Writing e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.bsp
+3 minutes, 40 seconds elapsed
+
+
+
+materialPath: D:\Program Files\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\Gmod MAPS\cozysbox mobenix\mobenix_but_cooler.vmf
+Patching WVT material: maps/mobenix_but_cooler/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/mobenix_but_cooler/nature/infblendgrassdirt001a_wvt_patch
+Patching WVT material: maps/mobenix_but_cooler/nature/blendsandsand008b_antlion_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (-9120.00 0.00 264.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (15872.0 11264.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 10752.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 9728.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 10752.0 2528.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14848.0 11264.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (14336.0 9728.0 2528.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 8704.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (16384.0 7680.0 2528.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+No such variable "$basetexture" for material "skybox/paintedrt"
+Can't load skybox file skybox/painted to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1676265 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1330 texinfos to 915
+Reduced 96 texdatas to 85 (2595 bytes to 2077)
+Writing E:\Gmod MAPS\cozysbox mobenix\mobenix_but_cooler.bsp
+10 seconds elapsed
+
+
+
+4 threads
+reading e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.bsp
+reading e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.prt
+LoadPortals: couldn't read e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.bsp
+PREP OK
+No vis information, direct lighting only.
+16011 faces
+1 degenerate faces
+25967902 square feet [3739377920.00 square inches]
+100 Displacements
+830466 Square Feet [119587152.00 Square Inches]
+138 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.2861 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  29/4096         1392/196608   ( 0.7%) 
+brushes               1855/16384       22260/196608   (11.3%) 
+brushsides           12516/65536      100128/524288   (19.1%) 
+planes                4318/65536       86360/1310720  ( 6.6%) 
+vertexes             23416/65536      280992/786432   (35.7%) 
+nodes                11739/65536      375648/2097152  (17.9%) 
+texinfos               915/12288       65880/884736   ( 7.4%) 
+texdata                 85/2048         2720/65536    ( 4.2%) 
+dispinfos              100/0           17600/0        ( 0.0%) 
+disp_verts            5828/0          116560/0        ( 0.0%) 
+disp_tris             8960/0           17920/0        ( 0.0%) 
+disp_lmsamples     1620198/0         1620198/0        ( 0.0%) 
+faces                16011/65536      896616/3670016  (24.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4491/65536      251496/3670016  ( 6.9%) 
+leaves               11769/65536      376608/2097152  (18.0%) 
+leaffaces            17965/65536       35930/131072   (27.4%) 
+leafbrushes           5358/65536       10716/131072   ( 8.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            90001/512000     360004/2048000  (17.6%) 
+edges                50297/256000     201188/1024000  (19.6%) 
+LDR worldlights        138/8192        12144/720896   ( 1.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1135/32768       11350/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         17670/65536       35340/131072   (27.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]    33040460/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       66063/393216   (16.8%) 
+LDR ambient table    11769/65536       47076/262144   (18.0%) 
+HDR ambient table    11769/65536       47076/262144   (18.0%) 
+LDR leaf ambient     78159/65536     2188452/1835008  (119.3%) VERY FULL!
+HDR leaf ambient     11769/65536      329532/1835008  (18.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/288      ( 0.3%) 
+pakfile               [variable]        4591/0        ( 0.0%) 
+physics               [variable]     1676265/4194304  (40.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 40052
+Writing e:\gmod maps\cozysbox mobenix\mobenix_but_cooler.bsp
+3 minutes, 8 seconds elapsed
